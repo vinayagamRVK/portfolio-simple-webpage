@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    padding: 50px;
+}
+
+.section-one {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px black;
+}
+
+.section-one__contact {
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.section-one__name {
+    font-size: 60px;
+}
+
+.section-one__role {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+    margin-top: 20px;
+}
+
+.section-two__title,
+.section-three__title,
+.section-four__title,
+.section-five__title {
+    margin-bottom: 10px;
+}
+
+.section-five {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px black;
+}
+
+.section-five__title>a {
+    color: skyblue;
+}
+
+.section-three__desc,
+.section-four__desc {
+    list-style-type: none;
+}
+
+.section-three {
+    background-color: #6462FD;
+    box-shadow: 0px 1px 4px #6462FD;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    height: 180px;
+    vertical-align: top;
+    margin-right: 10px;
+
+}
+
+.section-four {
+    background-color: #FE7517;
+    padding: 20px;
+    display: inline-block;
+    height: 180px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px #FE7517;
+    vertical-align: top;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form__input,
+.contact-form__textarea,
+.contact-form__submit {
+    margin-top: 10px;
+}
+
+.contact-form__input {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.contact-form__textarea {
+    padding: 10px;
+    border: none;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.contact-form__submit {
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
